@@ -1,0 +1,28 @@
+$text-color: #9d9ca2;
+$black: #313038;
+$white: #fff;
+$primary: #29d1d2;
+$font: "Poppins", sans-serif;
+$violet: #3a3053;
+$violet-light: #f0f1f6;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font;
+  color: $black;
+}
+
+body {
+  background-image: url("./../images/illustration-working.svg");
+  background-repeat: no-repeat;
+  background-position: calc(85%) 140px;
+  @media screen and (max-width: 1200px) {
+    background-position: 110% 140px;
+  }
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}

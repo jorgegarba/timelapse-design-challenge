@@ -1,0 +1,26 @@
+.header {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  .header__logo {
+    margin-right: 3rem;
+  }
+  .header__nav {
+    flex: 1;
+    .header__list {
+      list-style: none;
+      display: flex;
+    }
+    .header__item {
+      margin-right: 2rem;
+    }
+    .header__link {
+      text-decoration: none;
+      color: $text-color;
+    }
+  }
+  .header__auth {
+  }
+}
